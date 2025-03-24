@@ -2,17 +2,8 @@ function Footer() {
     return (
         <section className="grid py-4 w-screen text-black bg-[#e8ecef] place-items-center">
             <div className="text-center py-4">
-                <p>Copyright© ReadIt - 2025</p>
-                <p>Developed by Pedro Barboza</p>
-            </div>
-            <p>Minhas redes</p>
-            <div className="flex gap-4">
-                <a href="https://www.instagram.com/opedrokk/" target="_blank">
-                    <img className="w-8" src="./icons/instagram.svg"/>
-                </a>
-                <a href="https://github.com/oPedroKK" target="_blank">
-                    <img className="w-8" src="./icons/github.svg"/>
-                </a>
+                <p>Copyright © 2025 <spoiler className="font-bold">Pedro Barboza</spoiler></p>
+                <a href="#" className="underline">Política de Privacidade</a>
             </div>
         </section>
     )

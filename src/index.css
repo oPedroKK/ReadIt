@@ -17,6 +17,8 @@
 }
 
 body {
+  overflow-x: hidden;
+
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -26,5 +28,5 @@ body {
 }
 
 .input-form {
-  @apply p-2 text-black border-green-600 border-2 rounded-2xl outline-0;
+  @apply p-2 text-black border-green-600 border-2 rounded-2xl outline-0 xl:w-[20rem] xl:h-[3rem];
 }

@@ -29,7 +29,7 @@ function Form() {
                 <h1 className="text-3xl lg:text-4xl">FAÇA PARTE TAMBÉM</h1>
                 <p className="lg:text-lg">e tenha acesso a todo nosso repertorio</p>
             </div>
-            <div className="grid w-[80%] xl:w-[60%] gap-2 p-6 xl:p-12 rounded-2xl place-items-center shadow-2xl">
+            <div className="grid w-[80%] xl:w-[70%] gap-2 p-6 xl:p-12 xl:text-[1.1rem] rounded-2xl place-items-center shadow-2xl">
                 <div>
                     <p>* Seu nome</p>
                     <input className="input-form" />
@@ -51,7 +51,7 @@ function Form() {
                     {errorMessage}
                 </p>
 
-                <button className="my-2 w-42 h-12 cursor-pointer text-white bg-green-600 hover:bg-green-700 transition-all rounded-2xl"
+                <button className="my-2 w-42 xl:w-48 h-12 xl:h-16 cursor-pointer text-white bg-green-600 hover:bg-green-700 transition-all rounded-2xl"
                     onClick={submitForm}>
                     Entrar no ReadIt
                 </button>
